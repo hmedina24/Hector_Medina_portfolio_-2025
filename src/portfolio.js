@@ -33,13 +33,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/hmedina24",
+  linkedin: "https://www.linkedin.com/in/hectormedina24",
+  gmail: "hectormedina24@gmail.com",
+  //icloud: "hectormedina24@icloud.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -154,11 +155,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -174,29 +175,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Development Engineer",
+      company: "Amazon Web Services",
+      companylogo: require("./assets/images/awsLogo.png"),
+      date: "June 2022 – November 2023",
+      desc: "At AWS, I engineered backend tools and UI components to enhance system reliability, streamline operations, and improve customer experience across global deployments—all while collaborating in a fast-paced Agile/DevOps environment.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "🔧 Developed resilient APIs and CLI tools using Java and Varia scripts to automate incident recovery and restore file system availability.",
+        "🌐 Built core UI components like CreateVolume and CreateSVM using React.js, TypeScript, and JavaScript for AWS storage management.",
+        "🚀 Deployed and monitored HM/AMI instances across 31 global regions using AWS DevOps tools and pipeline monitoring practices.",
+        "🤝 Resolved critical system issues and maintained documentation, reinforcing a DevOps culture through Agile ceremonies and cross-functional collaboration."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Hack.Diversity",
+      companylogo: require("./assets/images/hdLogo.png"),
+      date: "December 2021 – June 2022",
+      desc: "As a 2022 Hack.Diversity Fellow, I collaborated with industry leaders while building a full-stack web application using the MERN stack. I transformed client needs into scalable technical solutions, focusing on clean architecture and seamless data operations.",
+      descBullets: [
+        "🎓 Selected for the competitive Hack.Diversity Fellowship, connecting with top leaders across Boston’s tech, civic, and academic sectors.",
+        "🌐 Built a full-stack web app using MongoDB, Express, React.js, and Node.js (MERN) to translate client goals into functional software.",
+        "🗂️ Designed data models and services for precise CRUD operations using MongoDB, ensuring accuracy and scalability.",
+        "🎨 Implemented responsive front-end architecture with React.js and JavaScript, delivering pixel-perfect UI aligned with design specs."
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Spectrus",
+      companylogo: require("./assets/images/spectrusLogo.png"),
+      date: "May 2019 – August 2019",
+      desc: "In this project, I led the analysis and backend design of a web application tailored for biochemist engineers, focusing on data architecture and system usability to support scientific workflows and business operations.",
+      descBullets: [
+        "🔬 Analyzed and optimized a web platform for biochemist engineers, enabling sample tracking, project updates, history access, and automated client invoicing.",
+        "🗃️ Designed relational database models using MySQL, ensuring high-performance data storage and integrity across complex workflows."
+      ]
     }
   ]
 };
@@ -239,7 +252,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +313,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +337,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +356,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +369,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,8 +385,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1(857)-249-8135",
+  email_address: "hectormedina24@icloud.com"
 };
 
 // Twitter Section
