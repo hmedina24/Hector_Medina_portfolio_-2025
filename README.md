@@ -26,7 +26,7 @@ This is my personal portfolio, designed and developed using modern full-stack te
 ## 📁 Want to Use This Template?
 
 If you'd like to download and use this portfolio template for your own project, visit the repository:  
-🔗 [HectorDevLab/portfolio-template](https://github.com/HectorDevLab/portfolio-template)
+🔗 [HectorDevLab/portfolio-template](https://github.com/hmedina24/Hector_Medina_portfolio_-2025/blob/main/README%20copy.md)
 
 Please make sure to check out the `readme_copy.md` file included in the repository — it contains important credits and original source acknowledgments. Giving credit where it's due helps support the developers and creators who made this possible.
 
