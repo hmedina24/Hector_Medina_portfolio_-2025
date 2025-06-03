@@ -1,7 +1,7 @@
 @import "../_globalColor";
 
 body {
-  background-color: #E5E9F0; // <- Define $lightBackground in _globalColor.scss
+  background-color: $lightBackground1; // <- Define $lightBackground in _globalColor.scss
   color: black;
   transition: background-color 0.1s ease, color 0.1s ease;
 }
