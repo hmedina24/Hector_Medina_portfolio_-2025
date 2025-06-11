@@ -172,6 +172,27 @@ const educationInfo = {
   ]
 };
 
+// Your top 3 proficient stacks/tech experience
+
+const techStack = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
+    }
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -244,6 +265,7 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
+  techStack,
   workExperiences,
   openSource,
   bigProjects,
