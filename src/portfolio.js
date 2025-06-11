@@ -50,15 +50,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Versatile software developer that enjoys building impactful software, from clean UIs to robust backend systems. ",
+  subTitle:
+    "Versatile software developer that enjoys building impactful software, from clean UIs to robust backend systems. ",
   skills: [
     emoji(
       "⚡ Scalable and secure RESTful APIs and backend systems in Java and Node.js"
     ),
-    emoji("⚡ Seamless cloud integrations with AWS for storage, compute, and monitoring"),
     emoji(
-      "⚡ Automated CLI tools and scripts to optimize developer workflows"
-    )
+      "⚡ Seamless cloud integrations with AWS for storage, compute, and monitoring"
+    ),
+    emoji("⚡ Automated CLI tools and scripts to optimize developer workflows")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -100,8 +101,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -157,7 +157,8 @@ const educationInfo = {
     {
       schoolName: "Suffolk University",
       logo: require("./assets/images/suffolkLogo.png"),
-      subHeader: "Bachelor of Arts in General Studies: Concentration in Physical Science",
+      subHeader:
+        "Bachelor of Arts in General Studies: Concentration in Physical Science",
       duration: "August 2017 - May 2022",
       desc: "I was member of the clubs: Computer Science Club, African American Student Council, Mathematicians Society."
     },
@@ -192,7 +193,6 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -204,7 +204,6 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -212,7 +211,6 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-      
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -231,7 +229,6 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-
   display: false // Set false to hide this section, defaults to true
 };
 

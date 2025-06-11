@@ -31,11 +31,7 @@ function Header() {
         <span className="grey-color">/&gt;</span>
       </a>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
-      <label
-        className="menu-icon"
-        htmlFor="menu-btn"
-        style={{color: "white"}}
-      >
+      <label className="menu-icon" htmlFor="menu-btn" style={{color: "white"}}>
         <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
       </label>
       <ul className={isDark ? "dark-menu menu" : "menu"}>
