@@ -67,7 +67,13 @@ function Header() {
         )}
         {viewResume && (
           <li>
-            <a href="#resume">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1rcPWqW-SWC7AzX84VFs7jF4Zs0pznByE/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </li>
         )}
         <li>
