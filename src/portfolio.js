@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Hector Medina ",
-  title: "Empowering the Future Through Code - Hector Medina",
+  title: "Building software that lasts and stays secure.",
   subTitle: emoji(
-    "An experienced Software Engineer in JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A software engineer dedicated to bridging modern software development and cybersecurity through clean code and resilient architecture"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/18guRb2wme5w_Z_UZ6V5Tlbp-Cqve7KJW/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-c7f2AflNhlk3sPFDPjPvtgNxf5o837Y/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -176,8 +176,8 @@ const educationInfo = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -224,7 +224,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1(857)-249-8135",
   email_address: "hectormedina24@icloud.com"
 };
 

@@ -10,7 +10,7 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
 } from "../../portfolio";
 
 function Header() {
@@ -68,7 +68,7 @@ function Header() {
         {viewResume && (
           <li>
             <a
-              href="https://drive.google.com/file/d/1rcPWqW-SWC7AzX84VFs7jF4Zs0pznByE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-c7f2AflNhlk3sPFDPjPvtgNxf5o837Y/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
