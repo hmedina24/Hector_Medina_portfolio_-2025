@@ -66,8 +66,5 @@
     "webpack-dev-server": "^4.15.0",
     "underscore": "^1.13.8",
     "http-proxy-agent": "^5.0.0"
-  },
-  "resolutions": { 
-    "serialize-javascript": "^7.0.1"
   }
 }
