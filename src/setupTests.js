@@ -1,6 +1,6 @@
 import "jest-canvas-mock";
 
-jest.mock('colorthief', () => ({
+jest.mock("colorthief", () => ({
   default: jest.fn().mockImplementation(() => ({
     getColor: jest.fn().mockResolvedValue([255, 255, 255]),
     getPalette: jest.fn().mockResolvedValue([[255, 255, 255]])

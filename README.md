@@ -30,5 +30,4 @@ If you'd like to download and use this portfolio template for your own project, 
 
 Please make sure to check out the `readme_copy.md` file included in the repository — it contains important credits and original source acknowledgments. Giving credit where it's due helps support the developers and creators who made this possible.
 
-
 ---
