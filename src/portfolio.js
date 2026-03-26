@@ -26,7 +26,7 @@ const greeting = {
     "A software engineer dedicated to bridging modern software development and cybersecurity through clean code and resilient architecture"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1rcPWqW-SWC7AzX84VFs7jF4Zs0pznByE/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-c7f2AflNhlk3sPFDPjPvtgNxf5o837Y/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
